@@ -1,20 +1,602 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Crazy Kompetition for Infants 2019</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125018971-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-</head>
+      gtag('config', 'UA-125018971-1');
+    </script>
 
-<body>
 
-</body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Included are Bootstrap CSS & JS - see https://getbootstrap.com/ for more info and documentation -->
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <script src="http://crazykomp.cnhcirclek.org/Assets/JS/script.js"></script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <link rel="shortcut icon" target="_blank" href="favicon.ico" type="image/x-icon">
+
+    <title>Crazy Kompetition For Infants 2019</title>
+  </head>
+  <body>
+    <!-- DEFAULT TOP NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+      <div class="container-fluid full-height">
+        <!-- Hamburger button for navbar on mobile screens -->
+        <div class="navbar-header full-height">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand full-height" href="http://circlek.org" target="_blank"><img id="wordmark" src="http://crazykomp.cnhcirclek.org/Assets/white_wordmark.png" alt=""></a>
+        </div>
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#details">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#registration">Registration</a></li>
+            <li><a href="#documents">Documents</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#contact">Contact</a></li>
+      <!--
+            <li id="last-item" class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                FB Event <span class="glyphicon glyphicon-triangle-bottom"></span>
+              </a>
+              <div id="dropdown-div" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://tinyurl.com/CKINorthFB18" target="_blank">CKI North</a> <br>
+                <a class="dropdown-item" href="http://tinyurl.com/CKISouthFB18" target="_blank">CKI South</a>
+              </div>
+            </li>
+      -->
+
+          </ul>
+          <a href="http://www.cnhcirclek.org/" target="_blank"><img id="cnh" src="http://crazykomp.cnhcirclek.org/Assets/cnh.png" alt=""></a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container-fluid" id="details">
+      <div id="banner-cont" class="full-width">
+        <img id="banner" src="banner.png" alt="">
+      </div>
+      <br>
+      <div class="container-fluid margins">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2 class="text-center">North</h2>
+            <p class="text-center">Saturday, October 12</p>
+            <p class="text-center">8:00AM - 4:00PM</p>
+            <p class="text-center">Tahoe Park</p>
+            <p class="text-center">Sacramento, CA</p>
+            <a href="http://crazykomp.cnhcirclek.org/Assets/north-map.png" target="_blank">
+              <div class="panel panel-default">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                <span class="glyphicon glyphicon-link"></span>
+                &nbsp <span>Map of Park</span>
+              </div>
+            </a>
+            <br>
+          </div>
+          <div class="col-sm-6">
+            <h2 class="text-center">South</h2>
+            <p class="text-center">Saturday, October 19</p>
+            <p class="text-center">8:00AM - 4:00PM</p>
+            <p class="text-center">Stanton Park</p>
+            <p class="text-center">Stanton, CA</p>
+            <a href="south-map.jpg" target="_blank">
+              <div class="panel panel-default">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                <span class="glyphicon glyphicon-link"></span>
+                &nbsp <span>Map of Park</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <br><br><br>
+
+        <h2 class="text-center announce">ANNOUNCEMENTS</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <!-- <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li> -->
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <h3>8/19/19</h3>
+              <p>
+                Welcome to the launch of the Crazy Kompetition for Infants website! Special thanks to the Technology Committee and District Technology Chair, Chris Lam. The Treasurer and Finance and Fundraising Committee have been hard at work the past few months putting together this event. Stay tuned for more updates and announcements throughout the next few weeks!
+              </p>
+            </div>
+
+            <!-- TODO: style these damn carousel controls -->
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container-fluid" id="about">
+      <div class="margins">
+        <h1>ABOUT</h1>
+        <div class="row">
+          <div class="col-sm-12"> <!-- yeah, this div is unnecessary but it gives me extra margins that align with the text so -->
+            <img src="http://crazykomp.cnhcirclek.org/Assets/north-photo.jpg" class="full-width" alt="">
+          </div>
+        </div>
+        <br>
+        <h2>Crazy Kompetition for Infants</h2>
+        <p>
+          Crazy Kompetition for Infants (CKI) is an annual event that raises money for Pediatric Trauma Program (PTP) through a series of fun, competitive mini-games and relays. As the first District event of the academic year, Crazy Komp allows new members their first chance to meet so many different people while giving returning members an opportunity to reconnect with old friends.
+        </p>
+        <p>
+          Form teams within your home club or division and compete against other teams to be the last one standing! Crazy Komp will let you tap into your inner child and release your competitive spirit! Ask your club president about registering to find out if you have what it takes to come out on top!
+        </p>
+        <br>
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="http://crazykomp.cnhcirclek.org/Assets/south-photo.jpg" class="full-width" alt="">
+          </div>
+        </div>
+        <br>
+        <h2>Pediatric Trauma Program</h2>
+        <p>
+          The Pediatric Trauma Program is a charity established by the Kiwanis Cal-Nev-Ha Foundation in 1994 which focuses on the need for education and training in pediatric trauma and injury prevention. The purpose of the program is to develop local service projects to educate people of children’s safety to decrease the number of children who are severely injured or killed due to traumatic unintentional injuries. Funds raised are used to purchase safety equipment, provide proper training to medical staff, and support projects created by our six partner hospitals.
+        </p>
+        <p>
+          <!-- TODO: [PTP Week Graphic, to be added much later] <br> -->
+          Show your support for PTP by participating in PTP Week 2019!
+        </p>
+        <p>
+          For more information about PTP, please contact DFI Ambassador Kevin Lee at <b><a href="mailto:cki.kevinlee@gmail.com">cki.kevinlee@gmail.com</a></b>, or visit <b><a href="http://cnhfoundation.org/supports/PTP.html" target="_blank">their website</a></b>.
+        </p>
+
+        <br><br>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container-fluid" id="registration">
+      <h1 class="text-center">REGISTRATION</h1>
+      <div class="container-fluid margins">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2>Early Registration</h2>
+            <h3>**CHECKS ONLY**</h3>
+            <ul>
+              <li>Teams (of 6 people): $48/team</li>
+              <li>Alternates/Individual Sign-Ups: $8/person</li>
+              <li>Judges and Spectators: $5/person</li>
+              <li>MUST BE RECEIVED BY October 4 for North and October 11 for South</li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h2>Onsite Registration</h2>
+            <h3>**CASH ONLY**</h3>
+            <ul>
+              <li>Teams (of 6 people): $72/team</li>
+              <li>Alternates/Individual Sign-Ups: $12/person</li>
+              <li>Judges and Spectators: $5/person</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container-fluid" id="documents">
+      <h1>DOCUMENTS</h1><br>
+      <div class="container-fluid margins">
+        <div class="col-md-6">
+          <a href="https://drive.google.com/open?id=0B2-N6Vn_TWDEX2xIU3dZOE43aE9NVXNzN1FIYlZYbTRlZWVV" target="_blank">
+            <div class="panel panel-default">
+              <h2 class="text-center">Team Registration Form</h2>
+              <p class="text-center"><span class="glyphicon glyphicon-link"></span></p>
+              <p class="text-center on-hover">Must be <strong>received by</strong> October 4 for CKI North and October 11 for CKI South</p>
+            </div>
+          </a>
+        </div>
+          <div class="col-md-6">
+            <a href="https://drive.google.com/file/d/0B2-N6Vn_TWDEc2pZNmJuUTMtZ1NzVHNfLTNfU1c0MnRicVlv/view?usp=sharing" target="_blank">
+              <div class="panel panel-default">
+                <h2 class="text-center">Waiver</h2>
+                <p class="text-center"><span class="glyphicon glyphicon-link"></span></p>
+                <p class="text-center on-hover">Can be mailed in with clubs' early registration forms or turned in on-site</p>
+              </div>
+            </a>
+          </div>
+        <div class="col-md-6">
+          <a href="http://tinyurl.com/crazykomp19JSM" target="_blank">
+            <div class="panel panel-default">
+              <h2 class="text-center">Judge/Spectator/Medic Signup Form</h2>
+              <p class="text-center"><span class="glyphicon glyphicon-link"></span></p>
+              <p class="text-center on-hover">Sign up to be a judge or spectator!</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <!-- TODO: playbook link -->
+          <a href="" target="_blank">
+            <div class="panel panel-default">
+              <h2 class="text-center">Playbook</h2>
+              <p class="text-center"><span class="glyphicon glyphicon-link"></span></p>
+              <p class="text-center on-hover">Coming soon!</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container-fluid" id="faq">
+      <h1>FAQ</h1>
+      <div class="container-fluid margins">
+        <div id="accordion">
+          <div class="col-sm-6 left-side">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Do members need to be dues-paid to attend?
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  No. All attendees must either be (1) dues-paid members of Kiwanis or Circle K; (2) prospective Circle K-ers who are currently enrolled at an institution where a chartered or chartering club is located; or (3) given explicit permission from District Administrator Mondo Velazquez to attend.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Who needs to sign a waiver?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  ALL interested members MUST sign a waiver. This includes participants, judges, spectators, and on-site medics. Early Registration participants should mail in waivers along with the Early Registration document and check though you are allowed to submit waivers on-site as well.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How many people are in a team? How many males and females?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  There is a maximum of six members per team with the option of one alternate player. There is no specific gender ratio.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    How many teams can my club register?
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  Your club may register as many teams as they wish! Simply copy and paste more tables in the Registration Word Doc to register more teams.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Can clubs register with incomplete teams?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  We recommend reaching out to your home club and division (eg. by posting on FB pages or asking around during general meetings or DCMs) if you are struggling to find a complete team. However, incomplete teams are still welcome -- we will combine incomplete teams on-site!
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Can members sign up to be individuals competitors?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  Yes! This also applies to incomplete teams that do not have six members. Simply list the members that lack a team (or incomplete teams) in one of the team registrations and submit their waivers and registration fees. The Finance and Fundraising Committee will then combine all incomplete teams and individual players onsite to maximize the number of people participating.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingEleven">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                    Will lunch be provided?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  Yes! Lunch is provided with registration; we will also offer vegan and vegetarian options for those who are interested. Snacks and water will be provided during the day to keep your energy levels high!
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 right-side">
+            <div class="card">
+              <div class="card-header" id="headingSeven">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                    Can I be on a team with people from other schools?
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  Yes! Teams do not need to be comprised of all members from just one school. Bond with your fellow Circle K-ers! Just make sure to have each member submit registration through their respective school and to indicate on the registration form that they are on a team comprised of members from different schools.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingEight">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    What if I want to go to Crazy Kompetition but don’t want to compete?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  We have three options for those who wish to attend but not participate: (1) sign up to be a judge! Judges earn service hours for their time in helping the games run smoothly or (2) be a spectator. Cheer on your teams for moral support and show CNH Circle K the passion you have for this event!
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingNine">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    Can clubs make changes to their teams after they have submitted registration?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  We understand that quarter schools only have a few weeks to advertise Crazy Komp to their members, so we will allow for team switches to happen on-site. However, we request that a club representative (eg. Club President or Treasurer) provide a list of all finalized teams and members in attendance on-site.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTen">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                    I attend a quarter system school, and we only have a few weeks to advertise Crazy Kompetition for Infants to new members. How can we encourage members to attend without paying the on-site registration price?
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  In previous years, clubs reserve spots for members by listing "Member 1/2/etc." on the registration form and paying early registration prices for those spots. As members express interest in Crazy Komp and sign up, they are able to take one of those reserved spots and pay the early registration price. Then, on-site at the event, a club representative (eg. Club President or Treasurer) can check in with Early Registration and present a list of finalized teams and member names. If you find that you cannot fill all the spots you reserved with your club members, you can advertise to your division to fill them in!
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwelve">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn-card"  data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                    How does parking work?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
+                <div class="card-body btn-body">
+                  For both CKI North & South, there is free parking around the park! Be sure to get there early if you want a closer spot.
+                </div>
+              </div>
+            </div
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div class="container-fluid" id="faq">
+      <h1>FAQ</h1>
+      <div class="container-fluid margins">
+        <div class="col-sm-6 left-side">
+          <h2>Do members need to be dues-paid to attend?</h2>
+          <span>
+            No. All attendees must either be (1) dues-paid members of Kiwanis or Circle K; (2) </span><span style="text-decoration: underline;">prospective Circle K-ers</span><span> who are currently enrolled at an institution where a chartered or chartering club is located; or (3) given explicit permission from District Administrator Mondo Velazquez to attend.
+          </span>
+          <br><br>
+          <h2>Who needs to sign a waiver?</h2>
+          <p>
+            ALL interested members MUST sign a waiver. This includes participants, judges, spectators, and on-site medics. Early Registration participants should mail in waivers along with the Early Registration document and check though you are allowed to submit waivers on-site as well.
+          </p>
+          <br>
+          <h2>How many people are in a team? How many males and females?</h2>
+          <p>
+            There is a maximum of six members per team with the option of one alternate player. There is no specific gender ratio.
+          </p>
+          <br>
+          <h2>How many teams can my club register?</h2>
+          <p>
+            Your club may register as many teams as they wish! Simply copy and paste more tables in the Registration Word Doc to register more teams.
+          </p>
+          <br>
+          <h2>Can clubs register with incomplete teams?</h2>
+          <p>
+            We recommend reaching out to your home club and division (eg. by posting on FB pages or asking around during general meetings or DCMs) if you are struggling to find a complete team. However, incomplete teams are still welcome -- we will combine incomplete teams on-site!
+          </p>
+          <br>
+          <h2>Can members sign up to be individuals competitors?</h2>
+          <p>
+            Yes! This also applies to incomplete teams that do not have six members. Simply list the members that lack a team (or incomplete teams) in one of the team registrations and submit their waivers and registration fees. The Finance and Fundraising Committee will then combine all incomplete teams and individual players onsite to maximize the number of people participating.
+          </p>
+          <br>
+          <h2>Will lunch be provided?</h2>
+          <p>
+            Yes! Lunch is provided with registration; we will also offer vegan and vegetarian options for those who are interested. Snacks and water will be provided during the day to keep your energy levels high!
+          </p>
+        </div>
+        <div class="col-sm-6 right-side">
+          <h2>Can I be on a team with people from other schools?</h2>
+          <p>
+            Yes! Teams do not need to be comprised of all members from just one school. Bond with your fellow Circle K-ers! Just make sure to have each member submit registration through their respective school and to indicate on the registration form that they are on a team comprised of members from different schools.
+          </p>
+          <br>
+          <h2>What if I want to go to Crazy Kompetition but don’t want to compete?</h2>
+          <p>
+            We have three options for those who wish to attend but not participate: (1) <a href="http://tinyurl.com/CrazyKomp19JSM">sign up to be a judge</a>! Judges earn service hours for their time in helping the games run smoothly or (2) be a spectator. Cheer on your teams for moral support and show CNH Circle K the passion you have for this event!
+          </p>
+          <br>
+          <h2>Can clubs make changes to their teams after they have submitted registration?</h2>
+          <p>
+            We understand that quarter schools only have a few weeks to advertise Crazy Komp to their members, so we will allow for team switches to happen on-site. However, we request that a club representative (eg. Club President or Treasurer) provide a list of all finalized teams and members in attendance on-site.
+          </p>
+          <br>
+          <h2>I attend a quarter system school, and we only have a few weeks to advertise Crazy Kompetition for Infants to new members. How can we encourage members to attend without paying the on-site registration price?</h2>
+          <p>
+            In previous years, clubs reserve spots for members by listing "Member 1/2/etc." on the registration form and paying early registration prices for those spots. As members express interest in Crazy Komp and sign up, they are able to take one of those reserved spots and pay the early registration price. Then, on-site at the event, a club representative (eg. Club President or Treasurer) can check in with Early Registration and present a list of finalized teams and member names. If you find that you cannot fill all the spots you reserved with your club members, you can advertise to your division to fill them in!
+          </p>
+          <br>
+          <h2>How does parking work?</h2>
+          <p>
+            For both CKI North & South, there is free parking around the park! Be sure to get there early if you want a closer spot.
+          </p>
+        </div>
+      </div>
+    </div>
+  -->
+
+    <br><br>
+
+    <div class="container-fluid" id="schedule">
+      <div class="container-fluid margins">
+        <div class="row">
+          <h1 class="text-center">SCHEDULE</h1>
+          <div class="left-side">
+            <p class="text-right">
+              8:00AM <br>
+              8:45AM <br>
+              9:00AM <br>
+              9:30AM <br>
+              9:55AM <br>
+              10:20AM <br>
+              10:45AM <br>
+              11:00AM <br>
+              11:25AM <br>
+              11:50PM <br>
+              12:15PM <br>
+              2:00PM <br>
+              2:30PM <br>
+              3:00PM <br>
+              3:15PM <br>
+              3:45PM &nbsp
+            </p>
+          </div>
+          <div class="right-side">
+            <p class="text-left">
+              Registration Begins <br>
+              Judges Meeting <br>
+              Opening Session <br>
+              Round 1 <br>
+              Round 2 <br>
+              Round 3 <br>
+              Break <br>
+              Round 4 <br>
+              Round 5 <br>
+              Round 6 <br>
+              Lunch & DCM's <br>
+              Quarterfinals <br>
+              Semifinals <br>
+              Finals <br>
+              Closing Session <br>
+              Clean Up
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container-fluid" id="games">
+      <h1 class="text-center">GAMES</h1>
+      <div class="container-fluid margins">
+        <br>
+        <div class="row">
+          <h2 class="text-center">To be announced!</h2>
+          <br><br><br><br><br><br><br><br>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div class="container-fluid" id="contact">
+      <h1>CONTACT</h1>
+      <div class="margins">
+        <div class="col-sm-4 profile"></div>
+        <div class="col-sm-4 profile">
+          <img class="img-circle img-responsive img-center" src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/57232058_2326699634231549_7610947473195925504_n.jpg?_nc_cat=100&_nc_oc=AQlSy5nh9D3TEipx12y2TnyjZSohIbiKqZ8JF5SPdWLc_HhS5uFg_1ElAaHbM4EZiA4&_nc_ht=scontent-lax3-2.xx&oh=86c584f65ff0e9c9a19aaeef1c56342f&oe=5DD17807" alt="">
+          <h2 class="text-center">District Treasurer</h2>
+          <p class="text-center">
+            Kevin Ru <br>
+            <a href="mailto:treasurer@cnhcirclek.org">treasurer@cnhcirclek.org</a>
+            <br><br><br>
+          </p>
+        </div>
+        <div class="col-sm-4 profile"></div>
+      </div>
+      <br><br><br><br><br><br>
+    </div>
+
+  </body>
 </html>

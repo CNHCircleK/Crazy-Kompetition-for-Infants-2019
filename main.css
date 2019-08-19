@@ -1,0 +1,418 @@
+/* CNH CIRCLE K GRAPHICS STANDARDS COLORS:
+  Yellow #F2E18B
+  Olive Green #9EA374
+  Light Blue #C7D6EE
+  Red #820024
+  Dark Grey #58595B
+  Orange #F58025
+  Green #6A9448
+  Cyan #00A5D9
+  Blue #003D79
+  Black #231F20
+*/
+
+/* CNH CIRCLE K GRAPHICS STANDARDS FONTS: */
+@font-face{font-family: 'CenturyGothic'; src: url(../Fonts/CenturyGothic.ttf) format('truetype');}
+@font-face{font-family: 'MyriadPro'; src: url(../Fonts/MyriadPro-Regular.otf) format('opentype');}
+@font-face{font-family: 'Archer'; src: url(../Fonts/Archer-Semibold.otf) format('opentype');}
+@font-face{font-family: 'Garamond'; src: url(../Fonts/Garamond.ttf) format('truetype');}
+
+/* CRAZY KOMP 2018 COLORS:
+  Red #9B3629
+  Orange #F7811D
+  Green #029F61
+  Blue #335676
+  Gray-Green #788B89
+
+  Red #E48C85
+  Orange #F4AF69
+  Green #86B5A2
+  Blue #B4C1CD
+  Light Blue #E8EBFC
+*/
+
+/* CRAZY KOMP 2018 FONTS */
+@font-face{font-family: 'AllExesMustDie'; src: url(../Fonts/AllExesMustDie.ttf) format('truetype');}
+@font-face{font-family: 'MyriadProLight'; src: url(../Fonts/MyriadPro-Light.otf) format('opentype');}
+@font-face{font-family: 'Montserrat'; src: url(../Fonts/Montserrat-Regular.otf) format('opentype');}
+@font-face{font-family: 'Survivant'; src: url(../Fonts/survivant.ttf) format('truetype');}
+
+*{
+  /* Set default text color to black */
+  color: white;
+}
+
+:root{
+    --dark-back: #9CADC1;
+    --light-back: #E8EBFC;
+    --super-light: #f5f6ff;
+    --dark-text: #7E86A4;
+}
+
+/******************************************
+  Main Text Elements
+******************************************/
+h1 {
+  font-family: "MyriadProLight";
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0;
+}
+
+h2{
+  font-family: "MyriadProLight";
+  font-size: 26px;
+}
+
+h3{
+  font-family: "MyriadProLight";
+  font-size: 20px;
+}
+
+p, li, span{
+  font-family: "MyriadProLight";
+  font-size: 15px;
+}
+
+a:hover, a:focus{
+  text-decoration: none;
+}
+
+/******************************************
+  Containers
+******************************************/
+/* Navbar Offset */
+body{ margin-top: 70px; }
+
+body > .container-fluid{
+  padding: 3% 0;
+}
+
+*:focus{
+  outline: 0;
+}
+
+.margins{
+  margin: 0 18%;
+}
+
+.panel{
+  border-color: white;
+  border-width: 3px;
+}
+
+#details{
+  background: #E8EBFC;
+}
+/* Change color of text here, since white is not readable */
+#details h1, #details h2, #details p, #details li{
+  color: var(--dark-text);
+}
+/* Make "important" text bigger */
+#details h2{
+  font-weight: bold;
+  font-size: 26px;
+}
+#details h3{
+  font-weight: bold;
+  color: var(--dark-text);
+}
+#details p, li{
+  font-size: 18px;
+  line-height: 32px;
+}
+#details .announce{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#about{
+  background-color: var(--dark-back);
+}
+#about h2{
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+#about p, #about li{
+  color: white;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#registration{
+  background: var(--light-back);
+}
+#registration h1{
+  color: var(--dark-text);
+}
+#registration h2{
+  font-size: 34px;
+  color: var(--dark-text);
+}
+#registration h3{
+  font-size: 22px;
+  color: var(--dark-text);
+}
+#registration p, #registration li{
+  color: var(--dark-text);
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#documents{
+  background: var(--dark-back);
+}
+#documents h2{
+  color: white;
+  font-size: 25px;
+}
+#documents p, #documents li{
+  color: white;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+#faq{
+  background: var(--light-back);
+  color: var(--dark-text);
+}
+#faq h2{
+  font-size: 26px;
+  color: var(--dark-text);
+}
+#faq p, #faq span, #faq li{
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--dark-text);
+}
+
+#schedule{
+  background: var(--dark-back);
+}
+#schedule p, #schedule li{
+  font-size: 22px;
+  line-height: 32px;
+  color: white;
+}
+
+#games{
+  background: var(--light-back);
+}
+#games h1{
+  color: var(--dark-text);
+}
+#games h2{
+  font-size: 26px;
+  color: var(--dark-text);
+}
+#games p, #games li{
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--dark-text);
+}
+
+#contact{
+  background: var(--dark-back);
+}
+#contact h2{
+  font-size: 26px;
+  color: white;
+}
+#contact p, #contact li{
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+}
+
+/* FAQ */
+#faq .card{
+  padding: 10px;
+  background-color: var(--super-light);
+  border: 2px solid var(--light-back);
+
+}
+#faq .btn-card{
+  white-space: normal;
+  text-align: left;
+  font-size: 22px;
+  color: var(--dark-text);
+  font-family: "MyriadProLight";
+  font-weight: bold;
+}
+
+#faq .btn-body{
+  font-size: 18px;
+  color: var(--dark-text);
+  font-family: "MyriadProLight";
+}
+
+/* Contact */
+.profile{
+  padding: 0 4%;
+}
+
+/******************************************
+  Banner, Details, Map Buttons
+******************************************/
+#banner-cont{
+  background: #E8EBFC;
+}
+#banner{
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+#schedule .left-side{
+  float: left;
+  width: 50%;
+  padding-right: 1.5%;
+  border-style: solid;
+  border-width: 0;
+  border-right-width: 0.5px;
+  border-color: #566172;
+}
+
+#schedule .right-side{
+  float: right;
+  width: 50%;
+  padding-left: 1.5%;
+}
+
+/* This would be so much easier with angular */
+#details .panel{
+  padding: 2%;
+  width: 170px;
+  margin: 0 auto;
+  text-align: center;
+  background: #566172;
+  border-color: #566172;
+}
+#details .panel:hover{
+  background: #E8EBFC;
+  transition: 0.3s ease;
+}
+
+#details span{
+  color: #E8EBFC;
+}
+#details .panel:hover span{
+  color: #566172;
+  transition: 0.3s ease;
+}
+
+#details li{
+  font-size: 15px;
+}
+
+#details .glyphicon-link{ display: none; }
+#details .panel:hover .glyphicon-link{ display: inline-block; }
+#details .panel:hover .glyphicon-map-marker{ display: none; }
+
+/******************************************
+  Announcements
+******************************************/
+.carousel-inner{
+  /* height: 300px; */
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important; */
+}
+
+.carousel-control{
+   text-align: center;
+   opacity: 0.7;
+   background-image:none !important;
+   filter:none !important;
+}
+.carousel-control, .carousel-control:hover, .carousel-control:focus{
+}
+
+.item{
+  width: 100%;
+}
+
+/******************************************
+  Documents
+******************************************/
+#documents .panel{
+  height: 150px;
+  margin-bottom: 30px;
+  padding: 0 4%;
+}
+
+#documents .panel:hover{
+  background: var(--dark-back);
+  transition: 0.3s ease;
+}
+
+#documents .panel:hover h2{
+  color: white;
+  transition: 0.3s ease;
+}
+
+#documents .panel:hover span{
+  display: none;
+}
+
+#documents .on-hover{
+  color: var(--dark-back);
+  display: none;
+}
+
+#documents .panel:hover .on-hover{
+  display: block;
+  color: white;
+  transition: 0.3s ease;
+}
+
+#documents .panel h2{
+  color: var(--dark-back);
+  height: 50px;
+}
+
+#documents .panel p, #documents .panel span{
+  color: var(--dark-back);
+}
+
+#documents .glyphicon-link{
+  font-size: 25px;
+}
+
+p a{
+  color: #5b7fba;
+}
+
+p a:hover{
+  color: #cee1ff;
+}
+
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  h2{
+    font-size: 16px;
+  }
+  p, li, span{
+    font-size: 12px;
+  }
+  .margins{
+    margin: 0 8%;
+  }
+  #banner{ width: 100%; }
+  #details h2{ font-size: 20px; }
+  #details p, #details li{
+    font-size: 12px;
+    line-height: 24px;
+  }
+  #FAQ .left-side, #FAQ .right-side{
+    padding: 0;
+  }
+  .profile{
+    padding: 5% 25%;
+  }
+}
