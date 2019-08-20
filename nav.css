@@ -1,0 +1,89 @@
+.navbar{
+  font-family: "MyriadProLight";
+}
+
+.navbar-default{
+  background-color: #B4C1CD;
+  background-image: url("http://crazykomp.cnhcirclek.org/Assets/white_stripes.png");
+  background-size: contain;
+  background-size: 100% 10%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-width: 0;
+  border-radius: 0;
+  height: 70px;
+  margin: 0;
+}
+
+.full-height{ height: 100%; }
+.full-width{ width: 100%; }
+
+.navbar-default .navbar-nav li a{
+  line-height: 40px;
+  font-family: "MyriadProLight";
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  color: #7E86A4;
+  transition: 0.3s ease;
+}
+
+.navbar-default .navbar-nav li a:focus{
+  color: #335676;
+  font-weight: bold;
+}
+
+#wordmark{
+  height: 100%;
+}
+
+#cnh{
+  height: 50px;
+  float: right;
+  margin-top: 5px;
+  position: relative;
+}
+
+.glyphicon-triangle-bottom{
+  font-size: 12px;
+}
+
+#navbarDropdown:focus, #navbarDropdown:active{
+  color: #335676;
+  background: #B4C1CD;
+}
+
+.dropdown-item{
+  background: transparent !important;
+}
+
+#dropdown-div{
+  background: #335676;
+  border-radius: 0;
+  border-width: 0;
+  padding: 0 10px;
+}
+
+.collapse{
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #cnh{
+    display: none;
+  }
+  #last-item{
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+  }
+  .navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus{
+    margin-top: -7px;
+    background: #B4C1CD;
+  }
+  .navbar-default{
+    background-size: 100% 7%;
+  }
+}
