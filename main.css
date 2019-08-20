@@ -241,6 +241,9 @@ body > .container-fluid{
   font-family: "MyriadProLight";
   font-weight: bold;
 }
+#faq .btn-card:hover{
+ text-decoration: none;
+}
 
 #faq .btn-body{
   font-size: 18px;
