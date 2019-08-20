@@ -1,5 +1,5 @@
 .navbar{
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
 }
 
 .navbar-default{
@@ -20,7 +20,7 @@
 
 .navbar-default .navbar-nav li a{
   line-height: 40px;
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-size: 20px;
   color: white;
   transition: all 0.3s ease-out;

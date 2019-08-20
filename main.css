@@ -33,7 +33,7 @@
 
 /* CRAZY KOMP 2018 FONTS */
 @font-face{font-family: 'AllExesMustDie'; src: url(../Fonts/AllExesMustDie.ttf) format('truetype');}
-@font-face{font-family: 'MyriadProLight'; src: url(../Fonts/MyriadPro-Light.otf) format('opentype');}
+@font-face{font-family: 'MyriadPro'; src: url(../Fonts/MyriadPro-Light.otf) format('opentype');}
 @font-face{font-family: 'Montserrat'; src: url(../Fonts/Montserrat-Regular.otf) format('opentype');}
 @font-face{font-family: 'Survivant'; src: url(../Fonts/survivant.ttf) format('truetype');}
 
@@ -54,24 +54,24 @@
   Main Text Elements
 ******************************************/
 h1 {
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-weight: bold;
   text-align: center;
   margin: 40px 0;
 }
 
 h2{
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-size: 26px;
 }
 
 h3{
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-size: 20px;
 }
 
 p, li, span{
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-size: 15px;
 }
 
@@ -238,7 +238,7 @@ body > .container-fluid{
   text-align: left;
   font-size: 22px;
   color: var(--dark-text);
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-weight: bold;
   text-decoration: none;
 }
@@ -249,7 +249,7 @@ body > .container-fluid{
 #faq .btn-body{
   font-size: 18px;
   color: var(--dark-text);
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
 }
 
 /* Contact */
