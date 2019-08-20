@@ -240,6 +240,7 @@ body > .container-fluid{
   color: var(--dark-text);
   font-family: "MyriadProLight";
   font-weight: bold;
+  text-decoration: none;
 }
 #faq .btn-card:hover{
  text-decoration: none;
