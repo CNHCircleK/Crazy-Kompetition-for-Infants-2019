@@ -12,10 +12,12 @@
 */
 
 /* CNH CIRCLE K GRAPHICS STANDARDS FONTS: */
+/*
 @font-face{font-family: 'CenturyGothic'; src: url(../Fonts/CenturyGothic.ttf) format('truetype');}
 @font-face{font-family: 'MyriadPro'; src: url(../Fonts/MyriadPro-Regular.otf) format('opentype');}
 @font-face{font-family: 'Archer'; src: url(../Fonts/Archer-Semibold.otf) format('opentype');}
 @font-face{font-family: 'Garamond'; src: url(../Fonts/Garamond.ttf) format('truetype');}
+*/
 
 /* CRAZY KOMP 2018 COLORS:
   Red #9B3629
@@ -32,10 +34,13 @@
 */
 
 /* CRAZY KOMP 2018 FONTS */
+/*
 @font-face{font-family: 'AllExesMustDie'; src: url(../Fonts/AllExesMustDie.ttf) format('truetype');}
 @font-face{font-family: 'MyriadPro'; src: url(../Fonts/MyriadPro-Light.otf) format('opentype');}
 @font-face{font-family: 'Montserrat'; src: url(../Fonts/Montserrat-Regular.otf) format('opentype');}
 @font-face{font-family: 'Survivant'; src: url(../Fonts/survivant.ttf) format('truetype');}
+*/
+@font-face{font-family: 'MyriadPro'; src: url("Assets/MyriadPro-Regular.otf") format('opentype');}
 
 *{
   /* Set default text color to black */
