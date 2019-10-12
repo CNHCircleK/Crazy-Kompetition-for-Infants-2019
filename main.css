@@ -12,10 +12,12 @@
 */
 
 /* CNH CIRCLE K GRAPHICS STANDARDS FONTS: */
+/*
 @font-face{font-family: 'CenturyGothic'; src: url(../Fonts/CenturyGothic.ttf) format('truetype');}
 @font-face{font-family: 'MyriadPro'; src: url(../Fonts/MyriadPro-Regular.otf) format('opentype');}
 @font-face{font-family: 'Archer'; src: url(../Fonts/Archer-Semibold.otf) format('opentype');}
 @font-face{font-family: 'Garamond'; src: url(../Fonts/Garamond.ttf) format('truetype');}
+*/
 
 /* CRAZY KOMP 2018 COLORS:
   Red #9B3629
@@ -32,10 +34,14 @@
 */
 
 /* CRAZY KOMP 2018 FONTS */
+/*
 @font-face{font-family: 'AllExesMustDie'; src: url(../Fonts/AllExesMustDie.ttf) format('truetype');}
-@font-face{font-family: 'MyriadProLight'; src: url(../Fonts/MyriadPro-Light.otf) format('opentype');}
+@font-face{font-family: 'MyriadPro'; src: url(../Fonts/MyriadPro-Light.otf) format('opentype');}
 @font-face{font-family: 'Montserrat'; src: url(../Fonts/Montserrat-Regular.otf) format('opentype');}
 @font-face{font-family: 'Survivant'; src: url(../Fonts/survivant.ttf) format('truetype');}
+*/
+@font-face{font-family: 'MyriadPro'; src: url("Assets/MyriadPro-Regular.otf") format('opentype');}
+
 
 *{
   /* Set default text color to black */
@@ -54,24 +60,24 @@
   Main Text Elements
 ******************************************/
 h1 {
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-weight: bold;
   text-align: center;
   margin: 40px 0;
 }
 
 h2{
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-size: 26px;
 }
 
 h3{
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-size: 20px;
 }
 
 p, li, span{
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-size: 15px;
 }
 
@@ -127,36 +133,53 @@ body > .container-fluid{
   font-size: 30px;
 }
 
-#about{
+#announcements{
   background-color: var(--dark-back);
 }
-#about h2{
-  font-size: 26px;
+#announcements h2{
   font-weight: bold;
+  font-size: 30px;
   color: white;
 }
-#about p, #about li{
+#announcements p, #announcements li{
   color: white;
   font-size: 18px;
   line-height: 32px;
 }
 
+#about{
+  background-color: var(--light-back);
+}
+#about h1{
+  color: var(--dark-text);
+}
+#about h2{
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--dark-text);
+}
+#about p, #about li{
+  color: var(--dark-text);
+  font-size: 18px;
+  line-height: 32px;
+}
+
 #registration{
-  background: var(--light-back);
+  background: var(--dark-back);
 }
 #registration h1{
-  color: var(--dark-text);
+  color: white;
 }
 #registration h2{
   font-size: 34px;
-  color: var(--dark-text);
+  color: white;
 }
 #registration h3{
   font-size: 22px;
-  color: var(--dark-text);
+  color: white;
 }
 #registration p, #registration li{
-  color: var(--dark-text);
+  color: white;
   font-size: 18px;
   line-height: 32px;
 }
@@ -204,7 +227,7 @@ body > .container-fluid{
   color: var(--dark-text);
 }
 #games h2{
-  font-size: 26px;
+  font-size: 34px;
   color: var(--dark-text);
 }
 #games p, #games li{
@@ -238,18 +261,17 @@ body > .container-fluid{
   text-align: left;
   font-size: 22px;
   color: var(--dark-text);
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
   font-weight: bold;
   text-decoration: none;
 }
 #faq .btn-card:hover{
  text-decoration: none;
 }
-
 #faq .btn-body{
   font-size: 18px;
   color: var(--dark-text);
-  font-family: "MyriadProLight";
+  font-family: "MyriadPro";
 }
 
 /* Contact */
@@ -342,48 +364,102 @@ body > .container-fluid{
 /******************************************
   Documents
 ******************************************/
-#documents .panel{
-  height: 150px;
+#registration .panel{
+  height: 290px;
   margin-bottom: 30px;
   padding: 0 4%;
 }
 
-#documents .panel:hover{
+@media (max-width: 1200px) {
+    #registration .panel {
+        height: 230px;
+    }
+}
+
+#registration .panel:hover{
   background: var(--dark-back);
   transition: 0.3s ease;
 }
 
-#documents .panel:hover h2{
+#registration .panel:hover h2{
   color: white;
   transition: 0.3s ease;
 }
 
-#documents .panel:hover span{
+#registration .panel:hover span{
   display: none;
 }
 
-#documents .on-hover{
+#registration .on-hover{
   color: var(--dark-back);
   display: none;
 }
 
-#documents .panel:hover .on-hover{
+#registration .panel:hover .on-hover{
   display: block;
   color: white;
   transition: 0.3s ease;
 }
 
-#documents .panel h2{
+#registration .panel h2{
   color: var(--dark-back);
-  height: 50px;
+  height: 105px;
 }
 
-#documents .panel p, #documents .panel span{
+#registration .panel p, #registration .panel span{
   color: var(--dark-back);
 }
 
-#documents .glyphicon-link{
-  font-size: 25px;
+#registration .glyphicon-link{
+  font-size: 40px;
+  background: white;
+}
+
+#games .panel{
+  height: 260px;
+  margin-bottom: 30px;
+  padding: 0 4%;
+  background: var(--dark-text);
+  border-color: var(--dark-text);
+  color: var(--light-back);
+}
+
+#games .panel h2{
+  height: 130px;
+  color: var(--light-back);
+}
+
+#games .panel:hover{
+  background: var(--light-back);
+  transition: 0.3s ease;
+}
+
+#games .panel:hover h2{
+  color: var(--dark-text);
+  transition: 0.3s ease;
+}
+
+#games .panel:hover span{
+  display: none;
+}
+
+#games .on-hover{
+  color: var(--light-back);
+  display: none;
+}
+
+#games .panel:hover .on-hover{
+  display: block;
+  color: var(--dark-text);
+  transition: 0.3s ease;
+}
+
+#games .panel p, #games .panel span{
+  color: var(--light-back);
+}
+
+#games .glyphicon-link{
+  font-size: 40px;
 }
 
 p a{
@@ -409,11 +485,6 @@ p a:hover{
     margin: 0 8%;
   }
   #banner{ width: 100%; }
-  #details h2{ font-size: 20px; }
-  #details p, #details li{
-    font-size: 12px;
-    line-height: 24px;
-  }
   #FAQ .left-side, #FAQ .right-side{
     padding: 0;
   }
